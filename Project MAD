@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Food Webpage</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Accordion - Default functionality</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+    $( "#accordion" ).accordion();
+    } );
+    </script>
+    
+
+    
+<style>
+    
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('earch.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+    
+    h3 {
+  color: red;
+}
+    
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+    
+body {
+  background-image: url("Looping.png");
+  background-repeat: repeat-y;
+}
+    
+    p.serif {
+        font-family: "Times New Roman", Times, serif;
+            }   
+  
+    h2  {
+        font-size: 40px;
+        }    
+    
+    p {
+        font-size: 18px;
+    }
+        
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+                }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+                        }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+                    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+            }
+    
+    img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+    
+</style>
+</head>
+    
+    <body>
+
+<ul>
+  <li><a href="#home" class="active">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+<form>
+  <input type="text" name="search" placeholder="Search..">
+</form>
+</ul>
+
+</body>
+    
+<body>
+
+<body text="white"
+ link="blue" vlink="brown"
+
+alink="white">   
+ <center>  <img src= "1550074823048.png" width="150" <center>
+
+<h1> Order Your Food And We Make It For You</h1>
+ 
+<center>        
+<div class="gallery">
+  <a target="_blank" href="Nasi%20Goreng%20Daging%20Merah.jpg">
+    <img src="Nasi%20Goreng%20Daging%20Merah.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">The best pizza that will make you have new experiance to have a great bite of pizza</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Des%202.jpg">
+    <img src="Des%202.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">This spaghetti will make you slup until the last one in your plate and make your mouth full of spaghetti sauce. </div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Untitled-design-1-2.jpg">
+    <img src="Untitled-design-1-2.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">You will lick the finger until your last rice that will make you add another plate.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Burger.jpg">
+    <img src="Burger.jpg"Des%202.jpg"" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Your mouth will grow to make a bigger bite on this mega burger.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Chiken.jpg">
+    <img src="Chiken.jpg"Des%203.jpg"" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">There will naver chicken chop that will make you miss this dishes when you in your dream. This Chicken chop will haunt you in your dream.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Meatball.jpg"Untitled-design-1-2.jpg"">
+    <img src="Meatball.jpg" alt="Mountains" width="600" height="400">
+    
+  </a>
+  <div class="desc">The meatball that will make you full from the first bite and it will chuwing in your mouth with the black paper sauce.</div>
+</div>
+    <br> <br>
+    <br> <br>
+    <br> <br>
+    <br> <br>    
+    <br> <br>
+    <br> <br>
+    <br> <br>
+    <br> <br>
+    <br> <br>
+    <br> <br>
+    
+    <center><h2 class="serif">DISCOVER OUR MENU </h2></center>
+
+<div id="accordion">
+  <h3>Manu 1 - Spaghetti Cacio e Pepe</h3>
+  <div>
+      <br> <br> 
+      <h4> Ingredients </h4>
+      
+    <li>1 pound spaghetti</li> <br> 
+    <li>6 tablespoons olive oil</li><br> 
+    <li>2 cloves garlic, minced</li><br> 
+    <li>2 teaspoons ground black pepper</li><br> 
+    <li>1 3/4 cups grated Pecorino Romano cheese</li><br> 
+    <p>
+    Directions
+    <br> <br>
+        <li> -Bring a large pot of lightly salted water to a boil. Cook spaghetti in the boiling water, stirring occasionally until tender yet firm to the bite, about 10 minutes. Scoop out some of the cooking water and reserve. Drain spaghetti.</li>
+        
+        <li>-Heat oil in a large skillet over medium heat. Add garlic and pepper; cook and stir until fragrant, 1 to 2 minutes. Add spaghetti and Pecorino Romano cheese. Ladle in 1/2 cup of reserved cooking water; stir until cheese is melted, about 1 minute. Add more cooking water until sauce coats spaghetti, about 1 minute more.</li>
+        
+    </p>
+  </div>
+  <h3>Manu 2 - Nasi Goreng Daging Merah</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Manu 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Manu 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>        
+    
+     </center>  </center>
+    </body>
+    </body>
+</html>
